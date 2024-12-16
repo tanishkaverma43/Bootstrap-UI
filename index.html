@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bootstrap Carousel Example</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  
+   
+
+</head>
+<body>
+
+   <!-- navbar-->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">My Website</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Felex Section</a>
+              </li>
+             
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Gallary</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Cards</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+
+
+      <!--Carousel section-->
+
+<section>
+<div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="https://cdn.pixabay.com/photo/2016/04/04/14/12/monitor-1307227_1280.jpg" class="d-block w-100" alt="Slide 1"  style="width: 100px; height: auto;">
+      <div class="carousel-caption d-none d-md-block">
+        <h5 style="color: black;">First Image</h5>
+        <p>This is the first slide.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="https://www.ituonline.com/wp-content/uploads/2023/10/What-Does-It-Mean-for-Computers.jpg" class="d-block w-100" alt="Slide 2"  style="width: 300px; height: auto;">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Second Image</h5>
+        <p>This is the the second slide.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="https://valueautomation.com/wp-content/uploads/IT-computer-services-126365493.jpg" class="d-block w-100" alt="Slide 3"  style="width: 300px; height: auto;">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Third Image</h5>
+        <p>This is the third slide.</p>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+</section>
+
+
+
+<!-- Custom Flex Section -->
+<section>
+<h1 style="margin-top: 50px; text-align: center;">Custom Flex Section</h1>
+<div class="container">
+    <div class="custom-flex-section">
+      <!-- Item 1 -->
+      <div class="custom-flex-item">
+        <img src="https://remotescout24.com/media/blogs/802-main.jpg" alt="Image 1"  style="width: 300px; height: auto;">
+        <div class="description">
+          <h5>Item 1</h5>
+          <p>Short description for the first item. Brief and informative.</p>
+        </div>
+      </div>
+      <!-- Item 2 -->
+      <div class="custom-flex-item">
+        <img src="https://media.licdn.com/dms/image/v2/D5612AQFLI7szOnnUEg/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1702193394851?e=1740009600&v=beta&t=KzwEmFdPyRnTPbaHZO4VOLzkSrSlcro8OxBbRMXbJqE" alt="Image 2"  style="width: 300px; height: auto;">
+        <div class="description">
+          <h5>Item 2</h5>
+          <p>Short description for the second item. Brief and informative.</p>
+        </div>
+      </div>
+      <!-- Item 3 -->
+    <div class="custom-flex-item">
+        <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgCioPpnWPpb6nOjVlz2KMcR0vu_aTnL3vgFVIuJj6GN630EBmqdg4baAlDGR9zvjzR04E2k4VsmLx1T9Jq87FF0c-vNZ3wZQM9mfNya9b8Bse1rEUKGcN_BlYX8-XZeGokd5XwjTFR8TxUDzIX2qbHtzzUGkIo6b7CEinqLdLaaKqyuSSVhyphenhyphenqypg4Jp2O5/s16000/A_hand_pointing_to_a_futuristic_technology.png" alt="Image 3"  style="width: 300px; height: auto;">
+        <div class="description">
+          <h5>Item 3</h5>
+          <p>Short description for the third item. Brief and informative.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+    <!-- gallery-->
+     <section>
+    <h1 style="margin-top: 50px; text-align: center;">Gallary</h1>
+  <div class="gallery-container">
+    <div class="gallery-item">
+      <img src="https://img.freepik.com/free-photo/programming-background-collage_23-2149901789.jpg?t=st=1734282389~exp=1734285989~hmac=561a37fe3cc2d74bd28241945f51a72b5a3a1d0d26081959e95fd6829cc0b5b2&w=996" alt="Programming Background" style="width: 300px; height: auto;">
+
+    </div>
+    <div class="gallery-item">
+        <img src="https://img.freepik.com/free-photo/programming-background-collage_23-2149901768.jpg?t=st=1734282431~exp=1734286031~hmac=f0e39d8f09152f4911e67b10b761d106c66504ee812ac7f859a8a9b298fadb8d&w=900" alt="Image 2"  style="width: 300px; height: auto;">
+    </div>
+    <div class="gallery-item">
+        <img src="https://img.freepik.com/free-photo/person-working-html-computer_23-2150038860.jpg?t=st=1734282465~exp=1734286065~hmac=27f79ade9aaf37ce23fc0c499b616c8033fbcd5db3eab771ed677531732d714d&w=900" alt="Image 3" style="width: 300px; height: auto;">
+    </div>
+    <div class="gallery-item">
+        <img src="https://remotescout24.com/media/blogs/802-main.jpg" alt="Image 4"  style="width: 300px; height: auto;">
+    </div>
+    <div class="gallery-item">
+        <img src="https://img.freepik.com/free-photo/binary-code-with-globe-laptop-computer_1048-6189.jpg?t=st=1734282601~exp=1734286201~hmac=de6c28132999332901bc1c62a6ebb14307eb47bf7f2f7b60644c98065c5b9722&w=900" alt="Image 5"  style="width: 300px; height: auto;">
+    </div>
+    <div class="gallery-item">
+        <img src="https://img.freepik.com/free-photo/data-technology-blue-background-with-hacker-remixed-media_53876-108534.jpg?t=st=1734282664~exp=1734286264~hmac=5b410d5eb20db33b68feddbcd525c4b8064e54041410206b4a9c4e3ecf4cd353&w=996" alt="Image 6"  style="width: 300px; height: auto;">
+    </div>
+    <div class="gallery-item">
+        <img src="https://img.freepik.com/free-photo/programming-background-collage_23-2149901789.jpg?t=st=1734282389~exp=1734285989~hmac=561a37fe3cc2d74bd28241945f51a72b5a3a1d0d26081959e95fd6829cc0b5b2&w=996" alt="Image 7"  style="width: 300px; height: auto;">
+    </div>
+    <div class="gallery-item">
+        <img src="https://img.freepik.com/free-photo/html-css-collage-concept-with-person_23-2150061975.jpg?t=st=1734282792~exp=1734286392~hmac=9b85e19957f5efb341a09dce05584698fc422d140e2719fd0c9e2f1370f2a955&w=996" alt="Image 8"  style="width: 300px; height: auto;">
+    </div>
+    <div class="gallery-item">
+        <img src="https://img.freepik.com/free-photo/technology-hologram-illustrated_23-2151877715.jpg?t=st=1734282831~exp=1734286431~hmac=68a7fe2aa533fe7a5f560c342a00616b3868d6a7f14853b080b71353965dffa7&w=1060" alt="Image 9"  style="width: 300px; height: auto;">
+    </div>
+</div>
+</section>
+
+
+<!-- cards-->
+
+<!-- cards 1-->
+ <section>
+<h1 style="margin-top: 50px; text-align: center;">Card Section</h1>
+<div class="card-container">
+  <div class="card" style="width: 18rem;">
+    <img src="https://img.freepik.com/free-photo/customer-relationship-management-concept_23-2150038411.jpg?t=st=1734282907~exp=1734286507~hmac=51fcf34859967c5f5e2e3fc5e7fa765ebd60e17a3591c2b4858ae8058b2fa0d0&w=996" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Card title</h5>
+      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+      <a href="#" class="btn btn-primary">Go somewhere</a>
+    </div>
+  </div>
+
+
+  <!-- cards 2-->
+  <div class="card" style="width: 18rem;">
+    <img src="https://www.ituonline.com/wp-content/uploads/2023/10/What-Does-It-Mean-for-Computers.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Card title</h5>
+      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+      <a href="#" class="btn btn-primary">Go somewhere</a>
+    </div>
+  </div>
+
+  <!-- cards 3-->
+  <div class="card" style="width: 18rem;">
+    <img src="https://www.chitkara.edu.in/blogs/wp-content/uploads/2022/10/computer-science.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Card title</h5>
+      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+      <a href="#" class="btn btn-primary">Go somewhere</a>
+    </div>
+  </div>
+</div>
+</section>
+
+
+<!-- Footer -->
+<footer class="bg-dark text-white pt-4">
+    <div class="container">
+        <div class="row">
+            <!-- Links Section -->
+            <div class="col-md-4 mb-3">
+                <h5>Quick Links</h5>
+                <ul class="list-unstyled">
+                    <li><a href="#" class="text-white text-decoration-none">Home</a></li>
+                    <li><a href="#" class="text-white text-decoration-none">About Us</a></li>
+                    <li><a href="#" class="text-white text-decoration-none">Services</a></li>
+                    <li><a href="#" class="text-white text-decoration-none">Contact</a></li>
+                </ul>
+            </div>
+            <!-- Contact Section -->
+            <div class="col-md-4 mb-3">
+                <h5>Contact Us</h5>
+                <p>Email: support@example.com</p>
+                <p>Phone: +123 456 7890</p>
+                <p>Address: 123 Main St, City, Country</p>
+            </div>
+            <!-- Back-to-top Button -->
+            <div class="col-md-4 mb-3 text-end">
+                <button class="btn btn-primary" id="backToTop">Back to Top</button>
+            </div>
+        </div>
+    </div>
+    <div class="text-center py-3 border-top border-secondary">
+        <p class="mb-0">&copy; 2024 Your Company Name. All rights reserved.</p>
+    </div>
+</footer>
+
+
+<!-- Bootstrap Bundle with Popper.js -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
